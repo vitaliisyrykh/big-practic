@@ -1,0 +1,9 @@
+@import "./reser.css";
+@import "./bootstrap-grid.css";
+@import "./header/header.css";
+
+:root{
+  max-width: 1440px;
+  font-size: 24px;
+  font-family: "Montserrat", sans-serif;
+}
