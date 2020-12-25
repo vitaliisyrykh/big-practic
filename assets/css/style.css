@@ -2,8 +2,11 @@
 @import "./bootstrap-grid.css";
 @import "./header/header.css";
 
-:root{
+ :root{
+   --mainColor:#FA4A0C;
+   --subColorText: #737373;
   max-width: 1440px;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
-}
+  font-weight: 500;
+} 
