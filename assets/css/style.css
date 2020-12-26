@@ -5,6 +5,7 @@
  :root{
    --mainColor:#FA4A0C;
    --subColorText: #737373;
+   --textColorWelcomeText:#F6F6F6;
   max-width: 1440px;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
