@@ -98,6 +98,10 @@
   .textColor {
     color: var(--textColorWelcomeText);
   }
+
+  .welcomeDisplayHeading {
+    font-size: 1rem;
+  }
   .welcomeDisplayText {
     color: #ffffff;
     font-size: 2rem;
@@ -106,5 +110,11 @@
 
   .wrapperButton{
     flex-direction: row;
+  }
+}
+@media screen and (min-width:1440px){
+  .welcomeDisplayText {
+    max-width: 936px;
+    line-height: 3rem;
   }
 }
