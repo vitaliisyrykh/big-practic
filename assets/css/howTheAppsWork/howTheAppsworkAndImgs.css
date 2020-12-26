@@ -3,9 +3,34 @@
 }
 
 .imgWrapperLeft{
+  /* position: absolute; */
+  position: relative;
+  max-width: 380px;
+ 
+  object-position: center;
+
+  top: -125px;
+  left: -60px;
+  z-index: 3;
+  
+}
+.imgWrapperRight{
+  /* position: absolute; */
+  position: relative;
+  max-width: 380px;
+  
+ z-index: 2;
+  object-position: center;
+
+ 
+}
+.imgPhoneLeft, .imgPhoneRight{
   position: absolute;
-  max-width: 230px;
-  background-image: url(/home/vitalik/big-practic/assets/img/leftPhone.png);
-  background-repeat: no-repeat;
-  background-position: center;
+  max-width: inherit;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  object-fit: cover;
+  overflow: hidden;
 }
