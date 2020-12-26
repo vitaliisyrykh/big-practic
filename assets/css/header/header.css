@@ -37,6 +37,8 @@
   font-weight: 700;
   line-height: 1rem;
 
+  overflow: hidden;
+
   color: var(--subColorText);
 }
 .text-center {
@@ -48,12 +50,15 @@
 
   margin: 10px 10px;
   padding: 10px 0;
+
+  overflow: hidden;
 }
 
 .welcomeDisplaySubText {
   font-weight: 500;
   color: var(--subColorText);
   padding: 27px 0 50px 0;
+  overflow: hidden;
 }
 .welcomeDisplayHeading::first-letter,
 .welcomeDisplayText::first-letter,
@@ -75,6 +80,8 @@
 
   border-radius: 30px;
 
+  overflow: hidden;
+
   color: var(--mainColor);
   background-color: #fafafa;
 }
@@ -91,6 +98,7 @@
   }
 
   .welcomeDisplayArticle {
+    
     background-image: url("/home/vitalik/big-practic/assets/img/Rectangle 48.png");
     background-repeat: no-repeat;
     background-size: cover;
