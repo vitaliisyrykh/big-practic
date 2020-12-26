@@ -17,12 +17,7 @@
 
   align-self: center;
 }
-.welcomeDisplayArticle{
-  background-image: url("assets/img/Rectangle 48.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: #171010 60 %;
-
+.welcomeDisplayArticle {
 }
 
 .wrapperWelcomeDisplayText {
@@ -32,7 +27,6 @@
   align-items: center;
 
   max-width: 100%;
-  ;
 }
 
 .welcomeDisplayHeading {
@@ -60,13 +54,23 @@
   color: var(--subColorText);
   padding: 27px 0 50px 0;
 }
+.welcomeDisplayHeading::first-letter,
+.welcomeDisplayText::first-letter,
+.welcomeDisplaySubText::first-letter {
+  text-transform: uppercase;
+}
+
+.wrapperButton{
+  display: flex;
+  flex-direction: column;
+}
 
 .welcomeDisplayBtn {
   width: 236px;
   height: 68px;
 
   padding: 16px 0;
-  margin:5px;
+  margin: 5px;
 
   border-radius: 30px;
 
@@ -74,7 +78,33 @@
   background-color: #fafafa;
 }
 
-.welcomeDisplayBtn:hover, .welcomeDisplayBtn:focus{
+.welcomeDisplayBtn:hover,
+.welcomeDisplayBtn:focus {
   background-color: var(--mainColor);
-  color:#fafafa;
+  color: #fafafa;
+}
+
+@media screen and (min-width: 768px) {
+  .mainNav {
+    padding: 15px 15px;
+  }
+
+  .welcomeDisplayArticle {
+    background-image: url("/home/vitalik/big-practic/assets/img/Rectangle 48.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 145px;
+  }
+  .textColor {
+    color: var(--textColorWelcomeText);
+  }
+  .welcomeDisplayText {
+    color: #ffffff;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .wrapperButton{
+    flex-direction: row;
+  }
 }
