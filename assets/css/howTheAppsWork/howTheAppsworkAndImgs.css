@@ -1,0 +1,11 @@
+.howTheAppsWorkAndImgPhones{
+  position: relative;
+}
+
+.imgWrapperLeft{
+  position: absolute;
+  max-width: 230px;
+  background-image: url(/home/vitalik/big-practic/assets/img/leftPhone.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
