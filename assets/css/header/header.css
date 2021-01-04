@@ -93,6 +93,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .welcomeDisplay {
+    max-width: 100%;
+  }
   .mainNav {
     padding: 15px 15px;
   }
@@ -122,6 +125,9 @@
   }
 }
 @media screen and (min-width:1440px){
+  .welcomeDisplay {
+    max-width: 1380px;
+  }
   .welcomeDisplayText {
     max-width: 936px;
     line-height: 3rem;
