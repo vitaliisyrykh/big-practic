@@ -1,3 +1,4 @@
+
 .howTheAppsWorkAndImgPhones {
   
 }
@@ -31,3 +32,17 @@
   object-fit: cover;
   overflow: hidden;
 }
+=======
+.imgsPhones{
+  display: flex;
+  max-width: 280px;
+  justify-content: center;
+
+}
+.imgWrapper{
+  max-width: 50%;
+}
+.imgPhone{
+  max-width: 160px;
+}
+

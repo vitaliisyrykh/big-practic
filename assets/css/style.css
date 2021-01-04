@@ -1,14 +1,17 @@
-@import "./reser.css";
+ @import "./reser.css";
 @import "./bootstrap-grid.css";
 @import "./header/header.css";
 @import "./howTheAppsWork/howTheAppsworkAndImgs.css";
+@import "./info_about_apps/info_about_apps.css"; 
 
- :root{
-   --mainColor:#FA4A0C;
-   --subColorText: #737373;
-   --textColorWelcomeText:#F6F6F6;
+:root{
+  --mainColor: #fa4a0c;
+  --subColorText: #737373;
+  --textColorWelcomeText: #f6f6f6;
   max-width: 1440px;
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
-} 
+}
+
+
