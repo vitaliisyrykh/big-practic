@@ -1,36 +1,12 @@
-.howTheAppsWorkAndImgPhones{
-  position: relative;
-}
+.imgsPhones{
+  display: flex;
+  max-width: 280px;
+  justify-content: center;
 
-.imgWrapperLeft{
-  /* position: absolute; */
-  position: relative;
-  max-width: 380px;
- 
-  object-position: center;
-
-  top: -125px;
-  left: -60px;
-  z-index: 3;
-  
 }
-.imgWrapperRight{
-  /* position: absolute; */
-  position: relative;
-  max-width: 380px;
-  
- z-index: 2;
-  object-position: center;
-
- 
+.imgWrapper{
+  max-width: 50%;
 }
-.imgPhoneLeft, .imgPhoneRight{
-  position: absolute;
-  max-width: inherit;
-  top: 0px;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  object-fit: cover;
-  overflow: hidden;
+.imgPhone{
+  max-width: 160px;
 }
