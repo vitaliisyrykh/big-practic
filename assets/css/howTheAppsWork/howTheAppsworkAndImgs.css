@@ -1,11 +1,13 @@
 .howTheAppsWorkAndImgPhones{
   position: relative;
+  max-width:100%;
+  overflow: hidden;
 }
 
 .imgWrapperLeft{
   /* position: absolute; */
   position: relative;
-  max-width: 380px;
+   max-width: 320px; 
  
   object-position: center;
 
@@ -17,20 +19,30 @@
 .imgWrapperRight{
   /* position: absolute; */
   position: relative;
-  max-width: 380px;
+   width: 320px; 
   
  z-index: 2;
   object-position: center;
-
+  left:150px;
  
 }
-.imgPhoneLeft, .imgPhoneRight{
+ .imgPhoneLeft {
   position: absolute;
-  max-width: inherit;
+  width: 320px;
   top: 0px;
   bottom: 0px;
   right: 0px;
   left: 0px;
   object-fit: cover;
-  overflow: hidden;
+  
 }
+.imgPhoneRight{
+  position: absolute;
+  width: 150px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  object-fit: fill;
+  
+} 
