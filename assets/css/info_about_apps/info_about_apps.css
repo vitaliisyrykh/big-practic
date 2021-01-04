@@ -1,0 +1,52 @@
+.informationSection{
+  max-width: 280px;
+  display: flex;
+  align-items: center;
+}
+.infotmationCardWrapper{
+  text-align: center;
+}
+
+.infoSectionHeading{
+  font-weight: 600;
+  line-height: 1.5rem;
+ 
+  padding: 115px 0 50px 0;
+  margin-bottom: 65px;
+  border-bottom: 3px solid #E4E4E4;
+}
+
+.headingInformation{
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: var(--mainColor);
+  
+  
+  padding-bottom:40px ;
+}
+
+.subHeadingInformation{
+  font-weight: 700;
+  font-size: 1.66rem;
+  line-height: 2rem;
+
+  
+
+  padding-bottom: 50px;
+
+  color: #252B42;
+}
+
+.textInformation{
+  font-weight: 500;
+  line-height: 1.5rem;
+
+  color:var(--subColorText)
+
+}
+.infoPhoneImg{
+  align-self: center;
+  max-width: 280px;
+  padding-left: 25px;
+
+} 
