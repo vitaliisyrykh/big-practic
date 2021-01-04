@@ -1,7 +1,7 @@
 @import "./reser.css";
 @import "./bootstrap-grid.css";
 @import "./header/header.css";
-@import "./howTheAppsWork/howTheAppsworkAndImgs.css";
+ @import "./howTheAppsWork/howTheAppsworkAndImgs.css"; 
 
  :root{
    --mainColor:#FA4A0C;
