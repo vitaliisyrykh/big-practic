@@ -61,7 +61,6 @@
   .imgWrapperLeft{
     max-width: 500px;
     
-    
     top:-295px;
     left:155px;
   }
@@ -69,5 +68,19 @@
     max-width: 230px;
     
     left: 480px;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .imgWrapperLeft{
+    max-width: 518px;
+    
+    
+    left:314px;
+  }
+  .imgWrapperRight {
+    max-width: 250px;
+    
+    left: 631px;
   }
 }
