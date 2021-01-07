@@ -1,7 +1,7 @@
  @import "./reser.css";
 @import "./bootstrap-grid.css";
 @import "./header/header.css";
-@import "./howTheAppsWork/howTheAppsworkAndImgs.css";
+@import "./imgs_phones/imgs_phones.css";
 @import "./info_about_apps/info_about_apps.css"; 
 
 :root{
@@ -12,6 +12,9 @@
   font-size: 24px;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  
 }
-
+body{
+  box-sizing: border-box;
+}
 

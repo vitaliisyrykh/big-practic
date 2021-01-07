@@ -1,0 +1,82 @@
+
+
+.imgsPhones{
+  max-width: 280px;
+}
+
+.imgWrapperLeft {
+  position: relative;
+  max-width: 280px;
+
+  object-position: center;
+
+  top: -100px;
+  left: -27px;
+  z-index: 3;
+}
+.imgWrapperRight {
+  position: relative;
+  max-width: 150px;
+
+  z-index: 2;
+  object-position: center;
+  right: -143px;
+  
+}
+.imgPhoneLeft,
+.imgPhoneRight {
+  position: absolute;
+  max-width: inherit;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+
+
+@media screen and (min-width:768px){
+  .imgsWrapper{
+    max-width: 100%;
+  }
+  .imgWrapperLeft{
+    max-width: 400px;
+    top:-270px;
+    left:30px;
+  }
+  .imgWrapperRight{
+    max-width: 200px;
+
+    top: -100px;
+    left: 350px;
+  }
+}
+@media screen and (min-width:1024px){
+  .imgWrapperLeft{
+    max-width: 500px;
+    
+    top:-295px;
+    left:155px;
+  }
+  .imgWrapperRight {
+    max-width: 230px;
+    
+    left: 480px;
+  }
+}
+
+@media screen and (min-width:1440px){
+  .imgWrapperLeft{
+    max-width: 518px;
+    
+    
+    left:314px;
+  }
+  .imgWrapperRight {
+    max-width: 250px;
+    
+    left: 631px;
+  }
+}
