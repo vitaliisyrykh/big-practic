@@ -65,4 +65,9 @@
     top:-295px;
     left:155px;
   }
+  .imgWrapperRight {
+    max-width: 230px;
+    
+    left: 480px;
+  }
 }
