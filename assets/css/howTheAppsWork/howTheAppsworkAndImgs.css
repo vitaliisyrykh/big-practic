@@ -2,15 +2,20 @@
 .howTheAppsWorkAndImgPhones {
   
 }
+.imgsWrapper{
+  position: relative;
+  max-width: 280px;
+  
+}
 
 .imgWrapperLeft {
   position: relative;
-  max-width: 320px;
+  max-width: 280px;
 
   object-position: center;
 
-  top: -125px;
-  left: -60px;
+  top: -100px;
+  left: -27px;
   z-index: 3;
 }
 .imgWrapperRight {
@@ -19,6 +24,7 @@
 
   z-index: 2;
   object-position: center;
+  right: -143px;
   
 }
 .imgPhoneLeft,
@@ -32,17 +38,31 @@
   object-fit: cover;
   overflow: hidden;
 }
-=======
-.imgsPhones{
-  display: flex;
-  max-width: 280px;
-  justify-content: center;
 
-}
-.imgWrapper{
-  max-width: 50%;
-}
-.imgPhone{
-  max-width: 160px;
-}
 
+
+@media screen and (min-width:768px){
+  .imgsWrapper{
+    max-width: 100%;
+  }
+  .imgWrapperLeft{
+    max-width: 400px;
+    top:-270px;
+    left:30px;
+  }
+  .imgWrapperRight{
+    max-width: 200px;
+
+    top: -100px;
+    left: 350px;
+  }
+}
+@media screen and (min-width:1024px){
+  .imgWrapperLeft{
+    max-width: 500px;
+    
+    
+    top:-295px;
+    left:155px;
+  }
+}
