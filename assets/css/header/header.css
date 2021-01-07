@@ -124,6 +124,11 @@
     flex-direction: row;
   }
 }
+@media screen and (min-width:1024){
+  .welcomeDisplayHeading {
+    line-height: 4rem;
+  }
+}
 @media screen and (min-width:1440px){
   .welcomeDisplay {
     max-width: 1380px;
