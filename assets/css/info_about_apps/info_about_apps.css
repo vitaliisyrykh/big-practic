@@ -2,14 +2,23 @@
   max-width: 280px;
   display: flex;
   align-items: center;
+  margin-top: 200px;
 }
 .infotmationCardWrapper{
   text-align: center;
+  margin-top: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .infoSectionHeading{
   font-weight: 600;
   line-height: 1.5rem;
+  text-align: center;
  
   padding: 115px 0 50px 0;
   margin-bottom: 65px;
@@ -45,8 +54,42 @@
 
 }
 .infoPhoneImg{
-  align-self: center;
-  max-width: 280px;
-  padding-left: 25px;
+  
+  max-width: 100%;
+   padding-left: 25px; 
 
 } 
+@media screen and (min-width:576px){
+  .informationSection{
+    max-width: 100%;
+    
+    justify-content: space-between;
+  }
+  .infotmationCardWrapper{
+    flex-wrap: nowrap;
+  }
+
+}
+@media screen and  (min-width:768px){
+  .informationSection{
+    max-width: 100%;
+   display: inline-block;
+   
+  }
+  .infotmationCardWrapper{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    
+    
+  }
+
+  .headingInformation{
+    padding-bottom: 20px;
+  }
+  .subHeadingInformation{
+    padding-bottom: 25px;
+  }
+  
+}

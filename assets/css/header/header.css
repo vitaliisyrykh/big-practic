@@ -1,6 +1,7 @@
 .welcomeDisplay {
   max-width: 280px;
   padding-bottom: 40px;
+  margin: 0 auto;
 }
 .mainNav {
   max-width: inherit;
@@ -91,6 +92,15 @@
   background-color: var(--mainColor);
   color: #fafafa;
 }
+@media screen and (min-width:576px){
+  .welcomeDisplay {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
+  .mainNav{
+    padding: 0 15px;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .welcomeDisplay {
@@ -124,14 +134,19 @@
     flex-direction: row;
   }
 }
-@media screen and (min-width:1024){
+
+@media screen and (min-width:1024px){
+  .welcomeDisplay {
+    max-width: 100%;
+    padding-bottom: 40px;
+  }
   .welcomeDisplayHeading {
     line-height: 4rem;
   }
 }
 @media screen and (min-width:1440px){
   .welcomeDisplay {
-    max-width: 1380px;
+    max-width: 100%;
   }
   .welcomeDisplayText {
     max-width: 936px;
