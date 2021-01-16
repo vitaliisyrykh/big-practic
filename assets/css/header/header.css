@@ -149,7 +149,7 @@
     max-width: 100%;
   }
   .welcomeDisplayText {
-    max-width: 936px;
+    max-width: 100%;
     line-height: 3rem;
   }
 }
