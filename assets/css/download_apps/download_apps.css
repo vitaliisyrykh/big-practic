@@ -1,0 +1,61 @@
+.downloadApps {
+  max-width: 100%;
+  background-color: var(--backgroundColorDownloadSection);
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+}
+.downloadHeading {
+  width: inherit;
+  padding: 0px, 60px, 20px, 60px;
+
+  font-size: 1.65rem;
+  line-height: 2.35rem;
+  font-weight: 700;
+}
+.downloadText {
+  line-height: 1.6rem;
+  color: #bdbdbd;
+
+  padding: 0px, 35px, 60px, 30px;
+  padding-bottom: 60px;
+}
+.downloadWrapperButton {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+}
+.buyBtn {
+  width: 137px;
+  height: 64px;
+  margin-right: 8px;
+
+  background-color: var(--backgroundColorDownloadSection);
+}
+.freeBtn {
+  width: 186px;
+  height: 60px;
+
+  margin-left: 8px;
+
+  background-color: var(--backgroundColorDownloadSection);
+}
+.downloadWrapperButton > * {
+  color: white;
+  font-size: 0.6rem;
+  line-height: 1.15rem;
+  font-weight: 700;
+  border-radius: 10px;
+  border-color: white;
+}
+
+.downloadWrapperButton > *:hover,
+.downloadWrapperButton > *:focus {
+  background-color: var(--mainColor);
+}
