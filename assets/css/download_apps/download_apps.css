@@ -1,6 +1,6 @@
 .downloadApps {
   max-width: 100%;
-  background-color: var(--backgroundColorDownloadSection);
+  background-color: var(--backgroundColorDownloadSection);;
   display: flex;
   justify-content: center;
   color: white;
@@ -31,20 +31,22 @@
   padding-right: 40px;
   padding-bottom: 100px;
 }
-.buyBtn {
+.appStoreBtn {
   width: 137px;
   height: 64px;
   margin-right: 8px;
 
-  background-color: var(--backgroundColorDownloadSection);
+  background-image: none; 
+  background: transparent;
 }
-.freeBtn {
+.playStoreBtn {
   width: 186px;
   height: 60px;
 
   margin-left: 8px;
 
-  background-color: var(--backgroundColorDownloadSection);
+  background-image: none; 
+  background: transparent;
 }
 .downloadWrapperButton > * {
   color: white;
@@ -58,4 +60,16 @@
 .downloadWrapperButton > *:hover,
 .downloadWrapperButton > *:focus {
   background-color: var(--mainColor);
+}
+@media screen and (min-width:768px){
+  .downloadApps{ 
+  background-image: url("/home/vitalik/big-practic/assets/img/background_image_for_download_section.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 30px;
+  }
+  .downloadWrapperButton {
+    padding-bottom: 50px;
+  }
+  
 }
