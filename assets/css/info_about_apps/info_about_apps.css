@@ -1,4 +1,5 @@
 .informationSection{
+  box-sizing: border-box;
   max-width: 100%;
   display: flex;
   align-items: center;
@@ -56,7 +57,7 @@
 
 }
 .infoPhoneImg{
-  
+  box-sizing: border-box;
   width: 100%;
    padding-left: 25px; 
 
@@ -75,7 +76,7 @@
 @media screen and  (min-width:768px){
   .informationSection{
     max-width: 100%;
-   display: inline-block;
+   
    
   }
   .infotmationCardWrapper{
