@@ -16,10 +16,12 @@
   height: 33px;
 }
 
-.mobileVersionText{
+.mobileVersionText,.watermark{
   font-family: "Roboto", normal;
   font-weight: 700;
   font-size: 0.5rem;
+  line-height: 0.75rem;
+  color: #5C5C5C;
 
   text-align: center;
 
@@ -29,4 +31,36 @@
 
 .watermark{
   display: none;
+}
+
+@media screen and (min-width:768px){
+  .footerLogo{
+    display: block;
+    padding-top:5px ;
+  }
+
+  .socialLogoWrapper{
+    padding: 15px 0;
+  }
+  
+  .mobileVersionText{
+    display: none;
+  }
+
+  .watermark{
+    display: block;
+    padding: 18px 0 ;
+  }
+}
+
+@media screen and (min-width:1200px){
+  .footerLogo{
+    padding-left: 35px;
+    
+  }
+}
+@media screen and (min-width:1400px){
+  .padding{
+    padding: 30px 0;
+  }
 }
