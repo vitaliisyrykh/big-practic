@@ -4,6 +4,7 @@
 @import "./imgs_phones/imgs_phones.css";
 @import "./info_about_apps/info_about_apps.css"; 
 @import "./download_apps/download_apps.css";
+@import "./footer/footer.css";
 
 :root{
   --mainColor: #fa4a0c;
