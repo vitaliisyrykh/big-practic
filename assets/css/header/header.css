@@ -104,7 +104,7 @@
 
 @media screen and (min-width: 768px) {
   .welcomeDisplay {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
   .mainNav {
     padding: 15px 15px;
