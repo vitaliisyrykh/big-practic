@@ -1,4 +1,5 @@
 .downloadApps {
+  box-sizing: border-box;
   max-width: 100%;
   background-color: var(--backgroundColorDownloadSection);;
   display: flex;
@@ -36,8 +37,7 @@
   height: 64px;
   margin-right: 8px;
 
-  background-image: none; 
-  background: transparent;
+  
 }
 .playStoreBtn {
   width: 186px;
@@ -45,8 +45,7 @@
 
   margin-left: 8px;
 
-  background-image: none; 
-  background: transparent;
+  
 }
 .downloadWrapperButton > * {
   color: white;
@@ -55,6 +54,8 @@
   font-weight: 700;
   border-radius: 10px;
   border-color: white;
+  background-image: none; 
+  background: transparent;
 }
 
 .downloadWrapperButton > *:hover,
