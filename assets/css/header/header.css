@@ -19,8 +19,6 @@
 
   align-self: center;
 }
-.welcomeDisplayArticle {
-}
 
 .wrapperWelcomeDisplayText {
   display: flex;
@@ -73,6 +71,9 @@
 }
 
 .welcomeDisplayBtn {
+  position: relative;
+  z-index: 100;
+
   width: 236px;
   height: 68px;
 
@@ -103,9 +104,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .welcomeDisplay {
-    /* max-width: 100%; */
-  }
+  
   .mainNav {
     padding: 15px 15px;
   }
