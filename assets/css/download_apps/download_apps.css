@@ -64,7 +64,7 @@
 }
 @media screen and (min-width:768px){
   .downloadApps{ 
-  background-image: url("/home/vitalik/big-practic/assets/img/background_image_for_download_section.png");
+  background-image: url("../../img/background_image_for_download_section.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 30px;
